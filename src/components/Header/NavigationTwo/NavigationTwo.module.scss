@@ -1,0 +1,40 @@
+$colorText: #FFFFFF;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.NavigationTwo{
+    color: $colorText;
+    height: 80px;
+    font-family: 'Gotham Pro', Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 7%;
+        padding-top: 16px;
+    }
+    ul{
+        display: flex;
+        li{
+            list-style-type: none;
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0 16px;
+            &:hover{
+                color: rgb(193, 126, 3);
+            }
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                &:focus{
+                    color: inherit;
+                }
+                &:hover{
+                    color: rgb(193, 126, 3);
+                }
+            }
+        }
+    }
+}

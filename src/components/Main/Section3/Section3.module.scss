@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Section3{
+    background-image: url(../../../images//section3.png);
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .section32{
+        background-image: url(../../../images//section32.png);
+        width: 1110px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        div{
+            width: 287px;
+            height: 244px;
+            color: white;
+            position: absolute;
+            text-align: left;
+            font-family: "Raleway", sans-serif;
+            background-color: rgba(40, 40, 40, 1);
+            box-sizing: border-box;
+            padding-left: 16px;
+            border-radius: 3px;
+            right: 0;
+            bottom: 0;
+            p:nth-of-type(1){
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 28px;
+                width: 213px;
+            }
+            p:nth-of-type(2){
+                width: 233px;
+                font-size: 20px;
+                font-weight: 400;
+                margin-top: -10px;
+            }
+        }
+    }
+}

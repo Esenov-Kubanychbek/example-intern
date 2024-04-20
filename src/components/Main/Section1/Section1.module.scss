@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.Section1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 150px;
+    font-family: "Raleway", sans-serif;
+    .texts{
+        width: 536px;
+        margin: 0 20px;
+        .text{
+            margin-bottom: 50px;
+
+            div{
+                display: flex;
+                .headerText{
+                    font-size: 32px;
+                    margin: 0 8px;
+                }
+            }
+            p{
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        :nth-of-type(2){
+            width: 471px;
+        }
+        :nth-of-type(3){
+            width: 471px;
+            margin: 0;
+        }
+    }
+    .image{
+        margin: 0 20px;
+        width: 493px;
+        height: 600px;
+    }
+}

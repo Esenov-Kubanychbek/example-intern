@@ -1,0 +1,47 @@
+$colorText: #FFFFFF;
+@font-face {
+    font-family: 'Bauhaus Modern';
+    font-style: normal;
+    font-weight: 400;
+    src: local('BauhausModern-Regular'),
+        url('https://myfonts.ru/fonts/2/7/8/4/9/BauhausModern-Regular.ttf') format('truetype');
+}
+
+
+.NavigationOne{
+    color: $colorText;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7%;
+    font-family: 'Bauhaus Modern', Arial, sans-serif;
+    .block1, .block2{
+        display: flex;
+        align-items: center;
+        div{
+            display: flex;
+            margin: 16px;
+            font-size: 14px;
+            
+            img{
+                margin: 0 8px;
+            }
+        }
+    }
+    .block1{
+    margin-left: -16px;
+
+    }
+    .block2{
+        button{
+            background-color: rgba(0, 0, 0, 0);
+            border: .8px solid white;
+            color: $colorText;
+            width: 173px;
+            height: 36px;
+            border-radius: 500px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

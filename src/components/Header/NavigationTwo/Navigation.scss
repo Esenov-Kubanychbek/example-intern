@@ -1,0 +1,18 @@
+.sticky{
+    background-color: rgba(17, 17, 17, 1);
+    position: sticky;
+    top: 0;
+    margin-top: -80px;
+    z-index: 1;
+    hr{
+        width: 130%;
+        top: 70px;
+        margin-left: -100px;
+        position: fixed;
+    }
+}
+.none{
+    hr{
+        display: none;
+    }
+}
